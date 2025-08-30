@@ -1,0 +1,19 @@
+## Environment Variables
+
+Copy `.env.example` to `.env` and adjust values.
+
+Key variables:
+- `NODE_ENV`, `PORT`
+- `DATABASE_URL` (PostgreSQL)
+- `REDIS_URL`
+- `JWT_SECRET`, `JWT_ACCESS_TOKEN_EXPIRES_IN`, `JWT_REFRESH_TOKEN_EXPIRES_IN`
+- `COOKIE_SECRET`, `CORS_ORIGINS`, `CSRF_ENABLED`
+- `RATE_LIMIT_TTL`, `RATE_LIMIT_LIMIT`
+- `MAX_FILE_SIZE`, `UPLOAD_PATH`
+- `MAIL_HOST`, `MAIL_PORT`, `MAIL_USER`, `MAIL_PASSWORD`, `MAIL_FROM`
+- `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`
+- `AWS_REGION`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_S3_BUCKET`
+
+For a complete list, see `.env.example`.
+
+
