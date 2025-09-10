@@ -156,6 +156,7 @@ CREATE TABLE "public"."product_attributes" (
 CREATE TABLE "public"."carts" (
     "id" TEXT NOT NULL,
     "userId" TEXT NOT NULL,
+    "couponCode" TEXT,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
